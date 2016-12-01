@@ -1,0 +1,15 @@
+{
+  "name": "angular-chosen-localytics",
+  "version": "1.0.7",
+  "main": "chosen.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Airnauts/angular-chosen/"
+  }
+}
