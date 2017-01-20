@@ -53,7 +53,7 @@
             if (chosen) {
               return element.trigger('chosen:updated');
             } else {
-              chosen = element.chosen(options).data('chosen');
+              chosen = (element.chosen ? element : $(element)).chosen(options).data('chosen');
               return defaultText = chosen.default_text;
             }
           };
